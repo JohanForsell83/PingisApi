@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pingsi.API", "PingsiAPI\Pingsi.API.csproj", "{40C6348C-EDDB-4810-A0C8-72751682DBD1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pingis.Core", "Pingis.Core\Pingis.Core.csproj", "{8BA37764-2F84-44C2-88A5-740D197A41FF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pingis.DataModel", "Pingis.Infrastructure2\Pingis.DataModel.csproj", "{B8C87AA5-DB16-4613-ADF9-33B3E833CC30}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApplication", "ConsoleApplication\ConsoleApplication.csproj", "{08616B72-7C6B-447D-94F0-2712E23C8013}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTest", "UnitTest\UnitTest.csproj", "{A2F86CD8-6A5E-4C97-BD95-42CFDD6C5D95}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Pluralsight", "Pluralsight", "{7080413A-0E06-4F38-8FE6-CA8542D3267B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyClasses", "MyClasses\MyClasses.csproj", "{DB908FC3-656B-4B6B-BDF0-726B7D823652}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyClassesTest", "MyClassesTest\MyClassesTest.csproj", "{887F9807-68FD-4708-A867-0D60C858E8A9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{40C6348C-EDDB-4810-A0C8-72751682DBD1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40C6348C-EDDB-4810-A0C8-72751682DBD1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40C6348C-EDDB-4810-A0C8-72751682DBD1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40C6348C-EDDB-4810-A0C8-72751682DBD1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8BA37764-2F84-44C2-88A5-740D197A41FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8BA37764-2F84-44C2-88A5-740D197A41FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8BA37764-2F84-44C2-88A5-740D197A41FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8BA37764-2F84-44C2-88A5-740D197A41FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B8C87AA5-DB16-4613-ADF9-33B3E833CC30}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8C87AA5-DB16-4613-ADF9-33B3E833CC30}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8C87AA5-DB16-4613-ADF9-33B3E833CC30}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8C87AA5-DB16-4613-ADF9-33B3E833CC30}.Release|Any CPU.Build.0 = Release|Any CPU
+		{08616B72-7C6B-447D-94F0-2712E23C8013}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08616B72-7C6B-447D-94F0-2712E23C8013}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08616B72-7C6B-447D-94F0-2712E23C8013}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2F86CD8-6A5E-4C97-BD95-42CFDD6C5D95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2F86CD8-6A5E-4C97-BD95-42CFDD6C5D95}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2F86CD8-6A5E-4C97-BD95-42CFDD6C5D95}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2F86CD8-6A5E-4C97-BD95-42CFDD6C5D95}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB908FC3-656B-4B6B-BDF0-726B7D823652}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB908FC3-656B-4B6B-BDF0-726B7D823652}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB908FC3-656B-4B6B-BDF0-726B7D823652}.Release|Any CPU.Build.0 = Release|Any CPU
+		{887F9807-68FD-4708-A867-0D60C858E8A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{887F9807-68FD-4708-A867-0D60C858E8A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{887F9807-68FD-4708-A867-0D60C858E8A9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{08616B72-7C6B-447D-94F0-2712E23C8013} = {7080413A-0E06-4F38-8FE6-CA8542D3267B}
+		{DB908FC3-656B-4B6B-BDF0-726B7D823652} = {7080413A-0E06-4F38-8FE6-CA8542D3267B}
+		{887F9807-68FD-4708-A867-0D60C858E8A9} = {7080413A-0E06-4F38-8FE6-CA8542D3267B}
+	EndGlobalSection
+EndGlobal

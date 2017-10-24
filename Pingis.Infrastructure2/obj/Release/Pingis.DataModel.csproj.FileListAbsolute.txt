@@ -1,0 +1,17 @@
+C:\Users\jf4162\Desktop\Pingis\Pingis\Pingis.Infrastructure2\obj\Release\Pingis.DataModel.csprojResolveAssemblyReference.cache
+C:\Users\jf4162\Desktop\Pingis\Pingis\Pingis.Infrastructure2\obj\Release\Pingis.DataModel.csproj.GenerateResource.Cache
+C:\Users\jf4162\Desktop\Pingis\Pingis\Pingis.Infrastructure2\bin\Release\Pingis.DataModel.dll.config
+C:\Users\jf4162\Desktop\Pingis\Pingis\Pingis.Infrastructure2\bin\Release\Pingis.DataModel.dll
+C:\Users\jf4162\Desktop\Pingis\Pingis\Pingis.Infrastructure2\bin\Release\Pingis.DataModel.pdb
+C:\Users\jf4162\Desktop\Pingis\Pingis\Pingis.Infrastructure2\bin\Release\EntityFramework.dll
+C:\Users\jf4162\Desktop\Pingis\Pingis\Pingis.Infrastructure2\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\jf4162\Desktop\Pingis\Pingis\Pingis.Infrastructure2\bin\Release\Newtonsoft.Json.dll
+C:\Users\jf4162\Desktop\Pingis\Pingis\Pingis.Infrastructure2\bin\Release\Pingis.Core.dll
+C:\Users\jf4162\Desktop\Pingis\Pingis\Pingis.Infrastructure2\bin\Release\Pingis.Core.pdb
+C:\Users\jf4162\Desktop\Pingis\Pingis\Pingis.Infrastructure2\bin\Release\EntityFramework.xml
+C:\Users\jf4162\Desktop\Pingis\Pingis\Pingis.Infrastructure2\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\jf4162\Desktop\Pingis\Pingis\Pingis.Infrastructure2\bin\Release\Newtonsoft.Json.xml
+C:\Users\jf4162\Desktop\Pingis\Pingis\Pingis.Infrastructure2\obj\Release\Pingis.DataModel.dll
+C:\Users\jf4162\Desktop\Pingis\Pingis\Pingis.Infrastructure2\obj\Release\Pingis.DataModel.pdb
+C:\Users\jf4162\Desktop\Pingis\Pingis\Pingis.Infrastructure2\obj\Release\Pingis.DataModel.Migrations.Initial.resources
+C:\Users\jf4162\Desktop\Pingis\Pingis\Pingis.Infrastructure2\obj\Release\Pingis.DataModel.Migrations.InitialPlayers.resources

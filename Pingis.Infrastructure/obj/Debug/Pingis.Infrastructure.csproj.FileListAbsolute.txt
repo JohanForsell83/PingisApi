@@ -1,0 +1,7 @@
+C:\Users\jf4162\Desktop\Pingis\Pingis\Pingis.Infrastructure\bin\Debug\Pingis.Infrastructure.dll
+C:\Users\jf4162\Desktop\Pingis\Pingis\Pingis.Infrastructure\bin\Debug\Pingis.Infrastructure.pdb
+C:\Users\jf4162\Desktop\Pingis\Pingis\Pingis.Infrastructure\bin\Debug\Pingis.Core.dll
+C:\Users\jf4162\Desktop\Pingis\Pingis\Pingis.Infrastructure\bin\Debug\Pingis.Core.pdb
+C:\Users\jf4162\Desktop\Pingis\Pingis\Pingis.Infrastructure\obj\Debug\Pingis.Infrastructure.csprojResolveAssemblyReference.cache
+C:\Users\jf4162\Desktop\Pingis\Pingis\Pingis.Infrastructure\obj\Debug\Pingis.Infrastructure.dll
+C:\Users\jf4162\Desktop\Pingis\Pingis\Pingis.Infrastructure\obj\Debug\Pingis.Infrastructure.pdb

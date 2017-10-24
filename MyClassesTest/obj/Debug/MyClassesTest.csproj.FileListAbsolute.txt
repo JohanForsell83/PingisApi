@@ -1,0 +1,8 @@
+C:\Users\jf4162\Desktop\Pingis\Pingis\MyClassesTest\bin\Debug\MyClassesTest.dll
+C:\Users\jf4162\Desktop\Pingis\Pingis\MyClassesTest\bin\Debug\MyClassesTest.pdb
+C:\Users\jf4162\Desktop\Pingis\Pingis\MyClassesTest\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\jf4162\Desktop\Pingis\Pingis\MyClassesTest\obj\Debug\MyClassesTest.csprojResolveAssemblyReference.cache
+C:\Users\jf4162\Desktop\Pingis\Pingis\MyClassesTest\obj\Debug\MyClassesTest.dll
+C:\Users\jf4162\Desktop\Pingis\Pingis\MyClassesTest\obj\Debug\MyClassesTest.pdb
+C:\Users\jf4162\Desktop\Pingis\Pingis\MyClassesTest\bin\Debug\MyClasses.dll
+C:\Users\jf4162\Desktop\Pingis\Pingis\MyClassesTest\bin\Debug\MyClasses.pdb

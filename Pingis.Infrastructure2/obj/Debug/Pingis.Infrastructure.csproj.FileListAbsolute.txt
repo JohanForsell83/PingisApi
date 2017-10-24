@@ -1,0 +1,12 @@
+C:\Users\jf4162\Desktop\Pingis\Pingis\Pingis.Infrastructure2\bin\Debug\Pingis.Infrastructure2.dll.config
+C:\Users\jf4162\Desktop\Pingis\Pingis\Pingis.Infrastructure2\bin\Debug\Pingis.Infrastructure2.dll
+C:\Users\jf4162\Desktop\Pingis\Pingis\Pingis.Infrastructure2\bin\Debug\Pingis.Infrastructure2.pdb
+C:\Users\jf4162\Desktop\Pingis\Pingis\Pingis.Infrastructure2\bin\Debug\EntityFramework.dll
+C:\Users\jf4162\Desktop\Pingis\Pingis\Pingis.Infrastructure2\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\jf4162\Desktop\Pingis\Pingis\Pingis.Infrastructure2\bin\Debug\EntityFramework.xml
+C:\Users\jf4162\Desktop\Pingis\Pingis\Pingis.Infrastructure2\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\jf4162\Desktop\Pingis\Pingis\Pingis.Infrastructure2\obj\Debug\Pingis.Infrastructure2.dll
+C:\Users\jf4162\Desktop\Pingis\Pingis\Pingis.Infrastructure2\obj\Debug\Pingis.Infrastructure2.pdb
+C:\Users\jf4162\Desktop\Pingis\Pingis\Pingis.Infrastructure2\bin\Debug\Pingis.Core.dll
+C:\Users\jf4162\Desktop\Pingis\Pingis\Pingis.Infrastructure2\bin\Debug\Pingis.Core.pdb
+C:\Users\jf4162\Desktop\Pingis\Pingis\Pingis.Infrastructure2\obj\Debug\Pingis.Infrastructure.csprojResolveAssemblyReference.cache

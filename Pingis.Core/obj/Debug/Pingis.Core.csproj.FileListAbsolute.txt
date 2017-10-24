@@ -1,0 +1,13 @@
+C:\Users\jf4162\Desktop\Pingis\Pingis\Pingis.Core\bin\Debug\Pingis.Core.dll
+C:\Users\jf4162\Desktop\Pingis\Pingis\Pingis.Core\bin\Debug\Pingis.Core.pdb
+C:\Users\jf4162\Desktop\Pingis\Pingis\Pingis.Core\obj\Debug\Pingis.Core.dll
+C:\Users\jf4162\Desktop\Pingis\Pingis\Pingis.Core\obj\Debug\Pingis.Core.pdb
+C:\Users\jf4162\Desktop\Pingis\Pingis\Pingis.Core\bin\Debug\System.ComponentModel.DataAnnotations.dll
+C:\Users\jf4162\Desktop\Pingis\Pingis\Pingis.Core\bin\Debug\System.Configuration.dll
+C:\Users\jf4162\Desktop\Pingis\Pingis\Pingis.Core\bin\Debug\System.Security.dll
+C:\Users\jf4162\Desktop\Pingis\Pingis\Pingis.Core\bin\Debug\System.ComponentModel.DataAnnotations.xml
+C:\Users\jf4162\Desktop\Pingis\Pingis\Pingis.Core\bin\Debug\System.Configuration.xml
+C:\Users\jf4162\Desktop\Pingis\Pingis\Pingis.Core\bin\Debug\System.Security.xml
+C:\Users\jf4162\Desktop\Pingis\Pingis\Pingis.Core\bin\Debug\Newtonsoft.Json.dll
+C:\Users\jf4162\Desktop\Pingis\Pingis\Pingis.Core\bin\Debug\Newtonsoft.Json.xml
+C:\Users\jf4162\Desktop\Pingis\Pingis\Pingis.Core\obj\Debug\Pingis.Core.csprojResolveAssemblyReference.cache
