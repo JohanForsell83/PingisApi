@@ -13,8 +13,10 @@ namespace Pingis.DataModel.Core.UnitOfWork
     {
         IPlayerRepository Players { get; }
         IGameRepository Games { get; }
+        ITournamentRepository Tournament { get; }
         IGameService GamesService { get; }
         IPlayerService PlayerService { get; }
+        ITournamentService TournamentService { get; }
 
         int Complete();
     }

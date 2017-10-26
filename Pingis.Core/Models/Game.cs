@@ -15,6 +15,7 @@ namespace Pingis.Core.Models
         public Game()
         {
             this.Players = new HashSet<Player>();
+            this.Tournaments = new HashSet<Tournament>();
         }
 
         public int Id { get; set; }
@@ -22,5 +23,6 @@ namespace Pingis.Core.Models
         public int Player2Score { get; set; }
         public int WinnerId { get; set; }
         public virtual ICollection<Player> Players { get; set; }
+        public virtual ICollection<Tournament> Tournaments { get; set; }
     }
 }

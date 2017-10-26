@@ -38,8 +38,10 @@ namespace PingsiAPI
             var container = new UnityContainer();
             container.RegisterType<IPlayerRepository, PlayerRepository>();
             container.RegisterType<IGameRepository, GameRepository>();
+            container.RegisterType<ITournamentRepository, TournamentRepository>();
             container.RegisterType<IGameService, GamesService>();
-
+            container.RegisterType<IPlayerService, PlayersService>();
+            container.RegisterType<ITournamentService, TournamentService>();
             container.RegisterType<IUnitOfWork, UnitOfWork>();
             config.DependencyResolver = new UnityResolver(container);
 

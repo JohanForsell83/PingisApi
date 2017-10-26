@@ -177,8 +177,7 @@ namespace UnitTest
         {
             //Arrange
             _playerService
-                .Setup(p => p.GetGamesByPlayerId(10))
-                .Throws<Exception>();
+                .Setup(p => p.GetGamesByPlayerId(10)).Throws<Exception>();
             //Act
             var actionResult = _playerController.GetGamesByPlayerId(10);
 

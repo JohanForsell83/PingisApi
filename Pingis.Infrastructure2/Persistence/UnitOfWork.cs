@@ -19,16 +19,21 @@ namespace Pingis.DataModel.Persistence
         
         public IPlayerRepository Players { get; private set; }
         public IGameRepository Games { get; private set; }
+        public ITournamentRepository Tournament { get; private set; }
         public IGameService GamesService { get; private set; }
         public IPlayerService PlayerService { get; private set; }
+        public ITournamentService TournamentService { get; private set; }
+
 
         public UnitOfWork(PingisContext context)
         {
             _context = context;
             Players = new PlayerRepository(_context);
             Games = new GameRepository(_context);
+            Tournament = new TournamentRepository(_context);
             GamesService = new GamesService(Games);
             PlayerService = new PlayersService(Players);
+            TournamentService = new TournamentService(Tournament);
         }
 
         public int Complete()

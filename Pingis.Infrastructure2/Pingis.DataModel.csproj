@@ -95,13 +95,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Core\DbContext\IDbContext.cs" />
+    <Compile Include="Core\DbContext\IPingisContext.cs" />
     <Compile Include="Core\Repository\IGameRepository.cs" />
     <Compile Include="Core\Repository\IPlayerRepository.cs" />
     <Compile Include="Core\Repository\IRepository.cs" />
+    <Compile Include="Core\Repository\ITournamentRepository.cs" />
     <Compile Include="Core\Service\IGameService.cs" />
     <Compile Include="Core\Service\IPlayerService.cs" />
     <Compile Include="Core\Service\IService.cs" />
+    <Compile Include="Core\Service\ITournamentService.cs" />
     <Compile Include="Core\UnitOfWork\IUnitOfWork.cs" />
     <Compile Include="Database\PingisContext.cs" />
     <Compile Include="Migrations\201710120918003_Initial.cs" />
@@ -112,10 +114,15 @@
     <Compile Include="Migrations\201710120930183_InitialPlayers.Designer.cs">
       <DependentUpon>201710120930183_InitialPlayers.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201710250937470_Tournament.cs" />
+    <Compile Include="Migrations\201710250937470_Tournament.Designer.cs">
+      <DependentUpon>201710250937470_Tournament.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Persistence\GameRepository.cs" />
     <Compile Include="Persistence\PlayerRepository.cs" />
     <Compile Include="Persistence\Repository.cs" />
+    <Compile Include="Persistence\TournamentRepository.cs" />
     <Compile Include="Persistence\UnitOfWork.cs" />
     <Compile Include="ProgramContractResolver.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -123,6 +130,7 @@
     <Compile Include="Service\GamesService.cs" />
     <Compile Include="Service\PlayersService.cs" />
     <Compile Include="Service\Service.cs" />
+    <Compile Include="Service\TournamentService.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
@@ -140,6 +148,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201710120930183_InitialPlayers.resx">
       <DependentUpon>201710120930183_InitialPlayers.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201710250937470_Tournament.resx">
+      <DependentUpon>201710250937470_Tournament.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>

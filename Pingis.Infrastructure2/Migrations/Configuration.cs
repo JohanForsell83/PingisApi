@@ -34,8 +34,7 @@ namespace Pingis.DataModel.Migrations
                 new Player { FirstName = "Xander", LastName = "Danielsson", DouchePoints = 100, Points = 0 },
                 new Player { FirstName = "Jonas", LastName = "Lundell", DouchePoints = 500, Points = 0 }
             );
-
-
+            
         }
     }
 }

@@ -4,10 +4,11 @@ using System.Data.Entity.ModelConfiguration.Conventions;
 using Pingis.Core.Models;
 using System.Web.Configuration;
 using Pingis.DataModel.Core;
+using Pingis.DataModel.Core.DbContext;
 
 namespace Pingis.DataModel.Database
 {
-    public class PingisContext : DbContext
+    public class PingisContext : DbContext, IPingisContext
     {
         public PingisContext(): base("PinginsContext")
         {
@@ -16,6 +17,7 @@ namespace Pingis.DataModel.Database
 
         public DbSet<Player> Players { get; set; }
         public DbSet<Game> Games { get; set; }
+        public DbSet<Tournament> Tournaments { get; set; }
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
@@ -29,6 +31,26 @@ namespace Pingis.DataModel.Database
                     pg.MapLeftKey("PlayerRefId");
                     pg.MapRightKey("GameRefId");
                     pg.ToTable("PlayerGame");
+                });
+
+            modelBuilder.Entity<Tournament>()
+                .HasMany<Player>(g => g.Players)
+                .WithMany(t => t.Tournaments)
+                .Map(tp =>
+                {
+                    tp.MapLeftKey("TournamentRefId");
+                    tp.MapRightKey("PlayerRefId");
+                    tp.ToTable("TournamentPlayer");
+                });
+
+            modelBuilder.Entity<Tournament>()
+                .HasMany<Game>(g => g.Games)
+                .WithMany(t => t.Tournaments)
+                .Map(tp =>
+                {
+                    tp.MapLeftKey("TournamentRefId");
+                    tp.MapRightKey("GameRefId");
+                    tp.ToTable("TournamentGame");
                 });
         }
     }
